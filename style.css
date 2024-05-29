@@ -114,13 +114,19 @@ td {
 
 h3 {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 h3,
 a {
   text-decoration: none;
-  color: salmon;
-  padding-bottom: 5px;
+  color: white;
+}
+
+.booking {
+  border: salmon solid;
+  background-color: salmon;
+  border-width: 7px;
 }
 
 .content img {
