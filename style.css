@@ -11,23 +11,24 @@ body {
 }
 
 .container {
-  width: 900px;
-  margin: auto;
   background-color: white;
 }
 
 .header {
   padding: 20px;
+  float: left;
 }
 
 .header .judul {
   font-size: 40px;
+  color: rgb(255, 255, 255);
 }
 
-.header ul li {
+ul li {
   display: inline-block;
   margin-top: 20px;
   margin-right: 15px;
+  margin-top: 200px;
 }
 
 .header a {
@@ -42,8 +43,8 @@ body {
 }
 
 .hero {
-  height: 250px;
-  background-image: url(Lovina-dolphine-sunrise-trip-call-6287862331691.jpg);
+  height: 300px;
+  background-image: url(ayam.png);
   background-size: cover;
   border-top: 5px solid salmon;
   border-bottom: 5px solid lightskyblue;
@@ -127,6 +128,7 @@ a {
   border: salmon solid;
   background-color: salmon;
   border-width: 7px;
+  border-radius: 5px;
 }
 
 .content img {
@@ -136,4 +138,10 @@ a {
 }
 .content {
   overflow: auto;
+}
+
+.mapouter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
