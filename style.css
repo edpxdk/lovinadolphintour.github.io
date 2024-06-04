@@ -12,8 +12,9 @@ body {
 
 .container {
   background-color: white;
-  width: 867px;
+  width: 860px;
   margin: auto;
+  position: relative;
 }
 
 .header {
@@ -61,21 +62,6 @@ ul li {
   font-weight: bold;
 }
 
-.content .penulis {
-  font-size: 11px;
-}
-
-.content .penulis a {
-  text-decoration: none;
-  color: salmon;
-}
-
-.content p {
-  margin-bottom: 20px;
-  font-size: 14px;
-  padding: 1px;
-}
-
 .footer {
   background-color: #333333;
 }
@@ -96,23 +82,20 @@ ul li {
   text-decoration: none;
 }
 
-.content ul li {
-  list-style: none;
-}
-
 .content .contact {
   padding-bottom: 20px;
 }
 
-table {
-  padding: 5px;
-  :3px ;
-  font-size: 17px;
+.about img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-right: 9px;
 }
 
-tr,
-td {
-  padding-right: 10px;
+.about {
+  overflow: auto;
+  padding: 10px;
 }
 
 h3 {
@@ -126,21 +109,58 @@ a {
   color: white;
 }
 
-.booking {
-  border: salmon solid;
-  background-color: salmon;
-  border-width: 7px;
-  border-radius: 5px;
+.gmapcanvas {
 }
 
-.content img {
-  height: 100px;
-  float: left;
-  padding-right: 8px;
-}
-.content {
-  overflow: auto;
+.table {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  padding: 15px;
+  background-color: lightskyblue;
+  box-shadow: 0px 3px 3px black;
+  border-radius: 2%;
 }
 
-.mapouter {
+.table2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: lightskyblue;
+  padding: 15px;
+  box-shadow: 0px 3px 3px black;
+  border-radius: 2%;
+}
+
+.table3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightskyblue;
+  position: relative;
+  top: 15px;
+  padding: 15px;
+  box-shadow: 0px 3px 3px black;
+  border-radius: 2%;
+}
+
+.table th {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.table td {
+  padding-right: 9px;
+}
+
+.maps {
+  padding-top: 20px;
 }
