@@ -108,60 +108,14 @@ a {
   color: white;
 }
 
-.gmapcanvas {
-}
-
-.table {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding-bottom: 10px;
-  font-size: 20px;
-  position: absolute;
-  right: 19px;
-  padding: 15px;
-  box-shadow: 0px 3px 3px salmon;
-  border-radius: 2%;
-}
-
-.table2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding-bottom: 10px;
-  font-size: 20px;
-  padding: 15px;
-  box-shadow: 0px 3px 3px salmon;
-  border-radius: 2%;
-}
-
-.table2 td {
-  padding-right: 9px;
-}
-
-.table3 {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-
-  position: relative;
-  top: 15px;
-  padding: 15px;
-  box-shadow: 0px 3px 3px salmon;
-  border-radius: 2%;
-}
-
-.table th {
-  font-size: 20px;
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-.table td {
-  padding-right: 11px;
-}
-
 .maps {
   padding-top: 20px;
+}
+
+table tr td {
+  padding-right: 10px;
+}
+
+img {
+  width: 300px;
 }
