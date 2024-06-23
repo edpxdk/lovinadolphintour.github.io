@@ -61,13 +61,14 @@ body {
 
   html .navbar .navbar-nav {
     position: absolute;
-    top: 6.6%;
+    top: 6.8%;
     right: 0;
     display: none;
     z-index: 9999;
     background-color: white;
     width: 15rem;
     height: 100vh;
+    transition: 0.3s;
   }
   html .navbar .navbar-nav.active {
     display: inline-block;
