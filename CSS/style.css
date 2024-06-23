@@ -95,6 +95,10 @@ body {
     width: 300px;
     height: 200px;
   }
+  html .contact-list span {
+    font-weight: 600;
+    font-size: 15px;
+  }
 }
 
 /* MEDIA */
@@ -134,7 +138,7 @@ body {
 
 /* HERO */
 .hero {
-  background-image: url(Hero.jpg);
+  background-image: url(img/Hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -254,3 +258,27 @@ body {
   clear: right;
 }
 /* CLEAR */
+
+/* CONTACT START */
+
+.contact {
+  text-align: center;
+}
+
+.contact-list {
+  padding: 15px;
+}
+
+.contact-list a {
+  color: rgb(22, 139, 198);
+}
+
+.contact-list ul li {
+  list-style-type: none;
+}
+
+.contact-list span {
+  font-weight: 600;
+  font-size: 20px;
+}
+/* CONTACT END */
