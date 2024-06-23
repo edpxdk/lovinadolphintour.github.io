@@ -58,6 +58,32 @@ body {
   html .profile p {
     padding: 5px;
   }
+
+  html .navbar .navbar-nav {
+    position: absolute;
+    top: 10.5%;
+    right: -100%;
+    z-index: 9999;
+    background-color: white;
+    width: 15rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+  html .navbar .navbar-nav.active {
+    right: 0;
+  }
+  html .navbar-nav a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  html .navbar {
+    justify-content: space-between;
+  }
+  html .navbar-extra{
+    display: inline-block;
+  }
 }
 
 /* MEDIA */
@@ -83,6 +109,10 @@ body {
   color: black;
   font-weight: 500;
   padding: 10px;
+}
+
+.navbar-extra {
+  display: none;
 }
 
 .navbar-nav a:hover {
